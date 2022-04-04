@@ -73,7 +73,8 @@ fieldset.grupo .campo {
 
 .batao {
     font-size: 1, 2cm;
-    background: #453662 border: 0;
+    background: #453662;
+    border: 0;
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
