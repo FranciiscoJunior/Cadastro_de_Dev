@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #354526;
+    margin: 7%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #354526;
+    margin: 10%;
+}
+
+fieldset{
+    border:0;
+}
+
+body{
+background-color: #898573;
+font-family: sans-serif;
+font-size: 1em;
+color: #868949;
+margin-left: 34%;
+margin-top: 2%;
+justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2;
+    color: #865746;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="E-mail"], .campo select, .campo textarea{
+    padding: 0.2;
+    border: 1px solid #756435;
+    box-shadow: 2px 2px 2px rgb(red, green, blue);
+}
+
